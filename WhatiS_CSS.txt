@@ -33,4 +33,22 @@ perfer classes over IDs for styling
 
 
 
-2.
+2. Box Model
+| margin |
+| border |
+| padding |
+| content |
+#every element is a box.
+example:
+div {
+  margin: 20px;     /* outside space */
+  padding: 10px;    /* inside space */
+  border: 2px solid black;
+}
+margin: space outside the element
+
+padding: space inside the element
+
+border: line around it
+
+content: actual element
