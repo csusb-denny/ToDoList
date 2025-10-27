@@ -1,3 +1,36 @@
 CSS controls how your HTML looks - colors, spacing, layouts, fonts alignment:
 #Syntax and Selectors
 CSS Rules Syntax:
+
+selector {
+  property: value;
+}
+
+example: 
+
+h1 {
+  color: blue;
+  font-size: 2rem;
+}
+
+
+#Selector Types
+
+element selector - targets tags directly:
+p { color: black; }
+
+
+Class selector - targets elements with a specific class:
+#html
+<div class="highlight">Hello</div>
+#css
+.highlight { background-color: yellow; }
+
+ID selector - unique per page
+<div id="main-title"></div>
+#main-title { font-weight: bold; }
+perfer classes over IDs for styling
+
+
+
+2.
