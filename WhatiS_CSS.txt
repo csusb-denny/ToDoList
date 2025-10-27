@@ -95,3 +95,9 @@ h1 {
 section {
   padding: 10px 20px;
 }
+
+how do you liink CSS to HTML?
+inside your <head>
+
+<link rel="stylesheet" href="style.css">
+
