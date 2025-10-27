@@ -52,3 +52,46 @@ padding: space inside the element
 border: line around it
 
 content: actual element
+
+3. Display Types:
+block → full line width (e.g. <div>, <p>)
+
+inline → doesn’t break line (e.g. <span>, <a>)
+
+inline-block → like inline but you can set width/height
+
+
+span {example:
+  display: inline;
+}
+
+div {
+  display: block;
+}
+
+button {
+  display: inline-block;
+}
+
+
+4. Color, Fonts, spacing
+colors.
+h1 {
+  color: red;                /* Named */
+  color: #ff0000;            /* HEX */
+  color: rgb(255, 0, 0);     /* RGB */
+}
+fonts.
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+spacing.
+h1 {
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 10px 20px;
+}
