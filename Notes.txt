@@ -1,0 +1,61 @@
+HTML has 3 core tags:
+
+<html> wraps the entire document
+<head> contains metadata(title,styles, metatags)
+<body> contains the actual visible content
+
+
+#Headings
+<h1> big title </h1> #this is the most important Headings
+<h2> subtitle
+<h3> section title>
+4,5,6.... exists but get smaller use them to structure hierarchy not just make text big..
+
+
+paragraphs:
+<p> normal text paragraph. </p>
+
+Lists:
+
+<!-- Unordered list (bullets) -->
+<ul>
+  <li>Apples</li>
+  <li>Bananas</li>
+</ul>
+
+<!-- Ordered list (numbered) -->
+<ol>
+  <li>Step one</li>
+  <li>Step two</li>
+</ol>
+
+Key syntax:
+
+type="text", type="email", type="password", type="number", etc.
+
+placeholder="..." gives hint text.
+
+required forces validation before submission.
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Your name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="you@example.com" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+
+<label> improves accessibility and UX.
+| Tag         | Purpose                        | Example usage               |
+| ----------- | ------------------------------ | --------------------------- |
+| `<div>`     | Generic container              | only if nothing else fits   |
+| `<header>`  | Top section (logo, title, nav) | site header                 |
+| `<nav>`     | Navigation bar                 | menus, links                |
+| `<main>`    | Main content of the page       | body of the site            |
+| `<section>` | Logical grouping of content    | hobbies, contact form, etc. |
+| `<article>` | Independent content piece      | blog post, card, news item  |
+| `<footer>`  | Bottom section                 | contact info, copyright     |
+
