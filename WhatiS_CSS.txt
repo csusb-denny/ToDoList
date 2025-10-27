@@ -101,3 +101,13 @@ inside your <head>
 
 <link rel="stylesheet" href="style.css">
 
+6. Visual Hiearchy and Clean Design types:
+2-3 colors max for theme
+consistent spacing and font sizes
+!AVOID using borders; use padding and background color for structure
+Keep Text legible:
+  Min font size 16px for body
+  high contrast(dark text on light background)
+Use semantic structure -> style it with css classes
+
+
