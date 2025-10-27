@@ -59,3 +59,7 @@ required forces validation before submission.
 | `<article>` | Independent content piece      | blog post, card, news item  |
 | `<footer>`  | Bottom section                 | contact info, copyright     |
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+note this is for: better accessibility ( screen readers understand structure)
+better SEO(google knows what is what)
+cleaner, more organized code, consider this functions i suppose in programming
